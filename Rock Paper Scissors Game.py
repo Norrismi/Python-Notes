@@ -1,5 +1,5 @@
 ## Rock Paper Scissors Game
-```
+```python
 import random
 
 def get_choices():
