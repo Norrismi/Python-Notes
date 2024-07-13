@@ -1,4 +1,6 @@
 # Lists
+
+```python
 myList = ["Red", "Blue", "Orange"]
 
 print(myList[-1])
@@ -23,3 +25,4 @@ myTuple = ("Red", "Blue", "Orange")
 print(len(myTuple))
 print(myTuple[0])
 print(type(myTuple))
+```
