@@ -49,6 +49,40 @@ type(daily_pints)
 
 Dcream = {'name': 'Alex Freberg', 'weekly intake': 5, 'favorite ice cream' : ["MCC", "Chocolate"]}
 
+# Comparison Operators
+10 == 10 #True
+
+10 != 50 # True
+
+'vanilla' == 'vanilla' # True
+
+x = 'vanilla'
+y = 'chocolate'
+
+x != y  #True
+
+10 <= 10 #True
+
+50 >= 10 #True
+
+# Logical Operators
+
+(10 > 50) and (50 > 10) #False
+(70 > 50) and (50 > 10) #True
+
+(10 > 50) or (50 > 10) #True
+
+# Membership Operators
+
+ice_cream = 'I love chocolate icre cream'
+
+'love' in 'I love chocolate icre cream' #True
+
+scoops = [1,2,3,4,5,6]
+wantedScoops = 8
+
+7 in scoops #False
+wantedScoops in scoops #False
 
 
 
